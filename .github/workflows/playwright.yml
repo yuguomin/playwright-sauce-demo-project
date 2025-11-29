@@ -29,3 +29,10 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+
+    - name: Upload HTML report
+      uses: actions/upload-pages-artifact@v3
+      if: always()
+      with:
+        name: github-pages
+        path: playwright-report/
