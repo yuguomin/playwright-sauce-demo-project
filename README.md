@@ -72,9 +72,7 @@ open test-results/index.html
 - 用户登出
 
 ## 📊 测试报告
-
-### Allure 报告
 ![Allure Report Screenshot](./docs/images/report.png)
 
-### CI/CD 状态
+## CI/CD 状态
 ![GitHub Actions](https://github.com/yuguomin/playwright-sauce-demo-project/actions/workflows/playwright.yml/badge.svg)
